@@ -2,6 +2,7 @@ var name = prompt("Qual o seu nome?");
 var age = prompt("Quantos anos você tem?");
 var code = prompt("Qual linguagem de programação você está estudando?");
 const msg = `Olá ${name}, você tem ${age} anos e já está aprendendo ${code}!`;
+
 alert(msg);
 
 var like = prompt(`Você gosta de estudadr ${code}? Responda com o número 1 para SIM ou 2 para NÃO`);
